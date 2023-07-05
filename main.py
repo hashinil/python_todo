@@ -13,8 +13,8 @@ while True:
             new_todo = input("Enter a new todo: ")
             todos[user_index] = new_todo
         case 'show':
-            for item in todos:
-                print(item)
+            for index, item in enumerate(todos):
+                print(index, '-', item)
         case 'exit':
             break
 
