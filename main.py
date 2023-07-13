@@ -22,7 +22,13 @@ while True:
         case 'show':
             file_s = open('todo.txt', 'r')
             todos = file_s.readlines()
-            for index, item in enumerate(todos):
+
+            new_todos = []
+            for item in todos:
+                new_item = item.strip('\n')
+                new_todos.append(new_item)
+
+            for index, item in enumerate(new_todos):
                 row = f"{index+1}-{item}"
                 print(row)
         case 'complete':
