@@ -15,8 +15,15 @@ while True:
         case 'edit':
             user_index = int(input("what item need to edit: "))
             user_index = user_index - 1
+
+            with open('todo.txt', 'r') as file_r:
+                todos = file_r.readlines()
+
             new_todo = input("Enter a new todo: ")
-            todos[user_index] = new_todo
+            todos[user_index] = new_todo+'\n'
+
+            with open('todo.txt', 'w') as file_w:
+                file_w.writelines(todos)
         case 'show':
             with open('todo.txt', 'r') as file_s:
                 todos = file_s.readlines()
@@ -28,7 +35,16 @@ while True:
         case 'complete':
             user_index = int(input("what item need to complete: "))
             user_index = user_index - 1
+
+            with open('todo.txt', 'r') as file_r:
+                todos = file_r.readlines()
+            todo_to_remove = todos[user_index]
             todos.pop(user_index)
+
+            with open('todo.txt', 'w') as file_w:
+                file_w.writelines(todos)
+            message = f"removed: {todo_to_remove}"
+            print(message)
         case 'exit':
             break
 
