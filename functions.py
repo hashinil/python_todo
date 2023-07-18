@@ -9,3 +9,8 @@ def write_todos(todos_arg, filepath='todo.txt'):
     """ Write Todos """
     with open(filepath, 'w') as file_w:
         file_w.writelines(todos_arg)
+
+# print(__name__)
+if __name__ == "__main__":
+    print("hello")
+    print(get_todos())
