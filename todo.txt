@@ -1,6 +1,6 @@
-eat
-clean
-test
-Take a nap
-make bed
-clean dishes
+Have a bath
+Cook Lunch
+Clean Dishes
+Have little nap
+
+
