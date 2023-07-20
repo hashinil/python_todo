@@ -1,4 +1,6 @@
 eat
 clean
 test
-wash
+Take a nap
+make bed
+clean dishes
