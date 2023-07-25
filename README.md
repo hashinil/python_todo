@@ -19,14 +19,18 @@ Day 18
 creating a standalone executable
 
 Install 'pyinstaller' package
-On terminal > 
+
+On terminal >
+
 pyinstaller --onefile --windowed --clean gui.py
 
 
 ![image](https://github.com/hashinil/python_todo/assets/33922245/03be2d6c-a091-42fe-9143-1657b5db58da)
 
 Day 19
+
 Install 'pyinstaller' package
+
 streamlit run web.py
 
 
