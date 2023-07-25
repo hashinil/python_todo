@@ -14,7 +14,7 @@ GUI
 
 ![image](https://github.com/hashinil/python_todo/assets/33922245/71c909c7-0982-4267-bb89-c75cbaa61361)
 
-Day 18
+Day 19
 
 creating a standalone executable
 
@@ -27,9 +27,14 @@ pyinstaller --onefile --windowed --clean gui.py
 
 ![image](https://github.com/hashinil/python_todo/assets/33922245/03be2d6c-a091-42fe-9143-1657b5db58da)
 
-Day 19
 
-Install 'pyinstaller' package
+Day 20
+
+Install 'streamlit' package
+
+contains web app. 
+
+Please reffer new repo https://github.com/hashinil/python_todo_web
 
 
 
