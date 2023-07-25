@@ -1,4 +1,4 @@
-# python_todo
+# python_todo - CLI, GUI
 Build a todo app with python
 
 Day1 - Day15:
@@ -31,6 +31,6 @@ Day 19
 
 Install 'pyinstaller' package
 
-streamlit run web.py
+
 
 
