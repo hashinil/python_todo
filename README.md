@@ -17,7 +17,10 @@ creating a standalone executable
 
 Install 'pyinstaller' package
 On terminal > pyinstaller --onefile --windowed --clean gui.py
+
 reffer : hashinil-exe branch 
+
+https://github.com/hashinil/python_todo/tree/hashinil-exe
 
 ![image](https://github.com/hashinil/python_todo/assets/33922245/03be2d6c-a091-42fe-9143-1657b5db58da)
 
